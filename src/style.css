@@ -681,7 +681,7 @@ footer a {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-height: 900px) {
   #expeditioninfo {
     position: absolute;
     bottom: 10%;
@@ -690,14 +690,12 @@ footer a {
     -webkit-transition: 1s ease;
     transition: 1s ease;
   }
-}
-
-@media only screen and (max-height: 900px) {
-  #expeditioninfo {
+  .info {
     position: absolute;
-    bottom: 5%;
+    bottom: 25%;
     color: white;
     height: 24%;
+    font-size: 15px;
     -webkit-transition: 1s ease;
     transition: 1s ease;
   }
@@ -746,6 +744,14 @@ footer a {
     font-size: 1.75rem;
     border-bottom: 3px solid white;
   }
+  .info {
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    height: 24%;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
   .visit h4 {
     text-align: center;
     font-size: 25px;
@@ -766,14 +772,6 @@ footer a {
   .meta {
     font-weight: bold;
     font-size: 10px;
-  }
-  #expeditioninfo {
-    position: absolute;
-    bottom: 11%;
-    color: white;
-    height: 24%;
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
   }
   .price h4 {
     line-height: 3;
